@@ -1,0 +1,51 @@
+footer {
+  width: 100%;
+  position: relative;
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 2rem 2rem 5rem 2rem;
+  background-color: rgba($color: #d6d6d6, $alpha: 1);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  .footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .icon-area {
+      svg {
+        font-size: 4rem;
+      }
+    }
+
+    .nav-area {
+      div {
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+
+        a {
+          text-decoration: none;
+          color: rgba($color: #000000, $alpha: 0.7);
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .rights-area {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba($color: #c0c0c0, $alpha: 1);
+  }
+}

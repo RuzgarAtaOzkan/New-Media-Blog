@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    .icon-area {
+      svg {
+        font-size: 25px;
+      }
+    }
+
+    .nav-area {
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+          margin-left: 35px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
